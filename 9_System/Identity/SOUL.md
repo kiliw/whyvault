@@ -5,22 +5,22 @@ updated:
 
 # SOUL
 
-> Wie es klingen soll, wenn für mich oder in meinem Namen geschrieben wird – und was dabei nie verletzt werden darf.
-> USER sagt, wer ich bin. SOUL sagt, wie es sich anhört.
-> Erstellen lassen: `9_System/Setup/Interview prompt.md`
+> How it should sound when something is written for me or in my name – and what must never be violated in the process.
+> USER says who I am. SOUL says how it sounds.
+> Have it generated: `9_System/Setup/Interview prompt.md`
 
 ## Voice
 
-<Die Stimme. Eher knapp oder ausführlich? Sachlich oder bildhaft? Ich-Form oder Wir-Form? Fachbegriffe erklären oder voraussetzen? Zwei bis vier Sätze reichen – und ein Beispielsatz, der genau richtig klingt.>
+<The voice. Terse or expansive? Plain or vivid? First person singular or plural? Explain jargon or assume it? Two to four sentences are enough – plus one example sentence that sounds exactly right.>
 
 ## Tone
 
-<Der Ton, je Situation. Wie klingt es, wenn du etwas erklärst? Wenn du absagst? Wenn du kritisierst? Wenn du um etwas bittest? Der Unterschied zwischen diesen vier Fällen ist wertvoller als eine allgemeine Beschreibung.>
+<The tone, per situation. How does it sound when you explain something? When you turn something down? When you criticise? When you ask for something? The difference between those four cases is worth more than a general description.>
 
 ## Core Values
 
-<Die Werte, die im Zweifel entscheiden – nicht die, die gut klingen. Je Wert ein Satz, was er im Alltag konkret bedeutet, und woran man merkt, dass er verletzt wurde.>
+<The values that decide it when in doubt – not the ones that sound good. One sentence per value on what it concretely means day to day, and how you can tell it's been violated.>
 
 ## What I never sound like
 
-<Der nützlichste Abschnitt. Floskeln, Formate und Tonlagen, die nicht von dir stammen könnten. Beispiele sind besser als Adjektive.>
+<The most useful section. Stock phrases, formats and registers that could not have come from you. Examples beat adjectives.>

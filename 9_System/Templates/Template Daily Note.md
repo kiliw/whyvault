@@ -3,20 +3,20 @@ type: day
 date:
 ---
 
-# <JJJJ-MM-TT>
+# <YYYY-MM-DD>
 
-## Was heute passiert ist
-
--
-
-## Gedanken
-
-Was dir durch den Kopf geht und woanders keinen Platz hat. Wandert später nach `1_Knowledge/Notes`, wenn es trägt.
+## What happened today
 
 -
 
-## Gespräche ohne Room
+## Thoughts
 
-Gehört es zu einem Room, kommt es dorthin.
+Whatever is going through your head and has no place elsewhere. Moves to `1_Knowledge/Notes` later if it holds up.
+
+-
+
+## Conversations without a room
+
+If it belongs to a room, it goes there.
 
 -

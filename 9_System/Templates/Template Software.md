@@ -7,27 +7,27 @@ updated:
 
 # <Name>
 
-**Wofür:** <in einem Satz – das ist die Antwort auf „welche Software für was">
-**Kategorie:**
-**Preis:** <Modell, Größenordnung>
-**Im Einsatz:** <ja/nein, wo, seit wann>
+**For what:** <in one sentence – this is the answer to "which software for what">
+**Category:**
+**Price:** <model, ballpark>
+**In use:** <yes/no, where, since when>
 
-## Urteil
+## Verdict
 
-Empfehlen, mit Einschränkung, oder abgelehnt – und warum.
+Recommend, recommend with reservations, or rejected – and why.
 
-## Stärken
-
--
-
-## Schwächen
+## Strengths
 
 -
 
-## Alternativen
+## Weaknesses
 
-- [[Alternative]] – <Unterschied in einem Satz>
+-
 
-## Erfahrungen
+## Alternatives
 
-- <JJJJ-MM> – <was aufgefallen ist>
+- [[Alternative]] – <difference in one sentence>
+
+## Experience
+
+- <YYYY-MM> – <what stood out>

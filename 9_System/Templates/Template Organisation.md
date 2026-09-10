@@ -6,18 +6,18 @@ updated:
 
 # <Name>
 
-**Beziehung:** <in welchem Verhältnis stehst du zu ihnen?>
-**Was sie machen:** <ein Satz>
+**Relationship:** <what's your relationship to them?>
+**What they do:** <one sentence>
 **Website:**
 
-## Menschen dort
+## People there
 
-- [[Name]] – <Rolle>
+- [[Name]] – <role>
 
-## Geschichte mit uns
+## History with us
 
-- <JJJJ-MM> – <Ereignis>
+- <YYYY-MM> – <event>
 
-## Einschätzung
+## Assessment
 
-Stärken, Schwächen, Verlässlichkeit, Preisniveau – das, was in keinem Verzeichnis steht.
+Strengths, weaknesses, reliability, price level – the things that aren't in any directory.

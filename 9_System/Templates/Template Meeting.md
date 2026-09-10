@@ -6,26 +6,26 @@ context:
 participants: []
 ---
 
-# <JJJJ-MM-TT> <Titel>
+# <YYYY-MM-DD> <Title>
 
-## Anlass
+## Occasion
 
-Ein Satz: warum dieses Gespräch stattfand.
+One sentence: why this conversation happened.
 
-## Notizen
+## Notes
 
 -
 
-## Entschieden
+## Decided
 
-Was wirklich entschieden wurde. Wenn es Gewicht hat, bekommt es eine eigene Notiz in `01 Decisions/` und wird hier verlinkt.
+What was actually decided. If it carries weight, it gets its own note in `01 Decisions/` and is linked here.
 
-## Aufgaben
+## Tasks
 
-Nicht hier führen. Angelegt in: <Link>
+Don't track them here. Created in: <link>
 
-## Offene Fragen
+## Open questions
 
-Echte Unklarheiten – nichts, was einen Verantwortlichen und ein Datum hat.
+Genuine uncertainties – nothing that has an owner and a date.
 
 -

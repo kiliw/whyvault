@@ -7,37 +7,37 @@ revision:
 updated:
 ---
 
-# <Titel>
+# <Title>
 
-> **Geltung:** <gilt seit … | Entwurf, noch nicht verabschiedet>
-> **Verabschiedet von:** <Namen> · **Revision:** <Nr., Datum>
+> **Validity:** <applies since … | draft, not yet approved>
+> **Approved by:** <names> · **Revision:** <no., date>
 
-## Zweck
+## Purpose
 
-Wozu diese Regel da ist, in zwei Sätzen. Nicht was sie regelt – warum es geregelt sein muss.
+What this rule is for, in two sentences. Not what it regulates – why it needs regulating.
 
-## Es gilt
+## It applies
 
-Die Regeln selbst. Kurze Sätze im Aktiv, jeder für sich prüfbar.
-
--
-
-## Es gilt nicht
-
-Die Grenzen. Der Abschnitt, der eine Regel im Alltag erst tragfähig macht.
+The rules themselves. Short sentences in the active voice, each one checkable on its own.
 
 -
 
-## Zuständig
+## It does not apply
 
-Wer entscheidet in Zweifelsfällen, wer gibt Ausnahmen frei.
+The boundaries. The section that's what makes a rule workable day to day.
 
-## Woran ich merke, dass es wirkt
+-
 
-Zwei oder drei nachprüfbare Punkte. Ohne sie ist nach zwei Jahren nicht sagbar, ob die Regel etwas verändert hat.
+## Responsible
 
-## Änderungen
+Who decides in unclear cases, who grants exceptions.
 
-| Revision | Datum | Änderung |
+## How I can tell it's working
+
+Two or three checkable points. Without them there's no saying in two years whether the rule changed anything.
+
+## Changes
+
+| Revision | Date | Change |
 |---|---|---|
 |  |  |  |

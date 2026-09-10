@@ -2,187 +2,187 @@
 type: system
 ---
 
-# Manual – das System auf einer Seite
+# Manual – the system on one page
 
-*Die Regeln. Liegt bewusst an der Wurzel, damit sie sich einzeln weitergeben lässt.*
+*The rules. Deliberately kept at the root so it can be handed on by itself.*
 
-## Wofür das gedacht ist
+## What this is for
 
-Für Leute, die vieles gleichzeitig tragen: eine Anstellung, eigene Produkte, Familie. Nicht ein Projekt nach dem anderen, sondern fünf nebeneinander, jedes mit eigenen Beteiligten, eigenen Entscheidungen und eigenem Ablagestand.
+For people carrying several things at once: a job, their own products, a family. Not one project after another, but five side by side, each with its own people, its own decisions and its own filing.
 
-Der Engpass dabei ist nicht die Arbeit, sondern der **Wiedereinstieg**: nach zwei Wochen in einer Sache zurückkommen und in fünf Minuten wieder wissen, warum etwas so entschieden wurde. Genau dafür ist dieser Vault die Zentrale. Er ist die Stelle, an der der Kontext liegt, aus dem heraus gearbeitet wird: ein Beitrag, eine Kampagne, eine Entscheidung, eine Übergabe.
+The bottleneck there isn't the work, it's **getting back in**: returning to something after two weeks and knowing within five minutes why it was decided that way. That's exactly what this vault is the hub for. It's the place the context lives – the context you work out of: a post, a campaign, a decision, a handover.
 
-Und weil der Kontext geschrieben und geordnet ist, lässt sich ein Teil der Arbeit an eine KI abgeben. Nicht weil das Modell klug ist, sondern weil es den richtigen Ausschnitt bekommt: die Marke, die Stimme, die Grenzen, die letzten Entscheidungen. Schlechter Kontext erzeugt generische Ergebnisse, guter Kontext erzeugt brauchbare.
+And because the context is written down and ordered, part of the work can be handed to an AI. Not because the model is clever, but because it gets the right slice: the brand, the voice, the boundaries, the last decisions. Bad context produces generic results, good context produces usable ones.
 
-**Agent-agnostisch.** Alles, was der Assistent über dich wissen muss, liegt als Textdatei im Vault, nicht in den Einstellungen eines Anbieters. Claude, ChatGPT, ein lokales Modell, das nächste Werkzeug: du gibst ihm [[MANUAL]] und die vier Identitätsdateien, und es arbeitet nach denselben Regeln. Der Vault gehört dir, das Modell ist austauschbar.
+**Agent-agnostic.** Everything the assistant needs to know about you sits in the vault as a text file, not in some vendor's settings. Claude, ChatGPT, a local model, whatever comes next: you hand it [[MANUAL]] and the four identity files, and it works by the same rules. The vault is yours, the model is replaceable.
 
-## Die Grenze des Systems
+## The boundary of the system
 
-**Dieser Vault beantwortet „warum". Dein Aufgaben-Tool beantwortet „was als nächstes".**
+**This vault answers "why". Your task tool answers "what's next".**
 
-Testsatz für alles, was du erfassen willst:
+The test for anything you want to capture:
 
-- Hat es einen Verantwortlichen und ein Fälligkeitsdatum? → **Aufgaben-Tool**
-- Muss man es in sechs Monaten noch verstehen können? → **hier**
+- Does it have an owner and a due date? → **task tool**
+- Does someone need to still understand it in six months? → **here**
 
-Hier gibt es deshalb keine Aufgaben, keine Fristen, keine Fortschritts-Status. Wenn du anfängst, hier Häkchen zu setzen, hast du zwei Wahrheiten und pflegst die schlechtere.
+So there are no tasks here, no deadlines, no progress states. The moment you start ticking boxes here, you have two truths and you'll maintain the worse one.
 
-## Drei Arten von Dingen
+## Three kinds of things
 
-| | Was | Grenze | Bei Übergabe |
+| | What | Boundary | On handover |
 |---|---|---|---|
-| **Rooms** (`3_Rooms`) | alles mit eigenen Entscheidungen, Beteiligten und einem Ende | ja – ein Ordner | wird als Paket abgegeben |
-| **Knowledge** (`1_Knowledge`) | Personen, Organisationen, Software, Notizen, Quellen, Prinzipien | nein – flach und geteilt | bleibt bei dir |
-| **Calendar** (`2_Calendar`) | Tagesnotizen, Rückblicke | dünn, nur Zeitachse | irrelevant |
+| **Rooms** (`3_Rooms`) | anything with its own decisions, its own people and an end | yes – one folder | handed over as a package |
+| **Knowledge** (`1_Knowledge`) | people, organisations, software, notes, sources, principles | no – flat and shared | stays with you |
+| **Calendar** (`2_Calendar`) | daily notes, reviews | thin, timeline only | irrelevant |
 
-**Wissen gehört keinem Room. Einen Kontext darf es haben.** Deshalb hat nur `3_Rooms` eine Kontextebene. Eine Person kann privat und geschäftlich auftauchen – die Notiz existiert genau einmal und trägt keinen Kontext. Etwas, das ausdrücklich nur für einen Kontext gilt, ist trotzdem Wissen und bekommt das Feld `context:`. Entscheidend ist nur: keine Wissen-Notiz wohnt in einem Room.
+**Knowledge belongs to no room. It may have a context.** That's why only `3_Rooms` has a context level. A person can show up privately and professionally – the note exists exactly once and carries no context. Something that explicitly applies to one context only is still knowledge and gets the `context:` field. The only thing that matters: no knowledge note lives inside a room.
 
-## Room oder Sammlung?
+## Room or collection?
 
-Die häufigste Verwechslung – und die, die Ordner mit leeren Unterordnern erzeugt. Eine Frage entscheidet:
+The most common mix-up – and the one that produces folders full of empty subfolders. One question decides it:
 
-> **Hat die Sache einen Verlauf?** Passieren Dinge, die entschieden werden und die man später verstehen muss?
+> **Does the thing have a history?** Do things happen that get decided and that someone has to understand later?
 
-- **Ja** → **Room.** Es gibt Entscheidungen, Gespräche, eine Chronik, irgendwann einen Abschluss.
-- **Nein, es ist ein Bestand, der gepflegt wird** → **Sammlung in `1_Knowledge`**, mit einer Karte in `Maps/` als Eingang. Eine Sammlung wird nie übergeben – sie bleibt.
+- **Yes** → **room.** There are decisions, conversations, a timeline, and eventually a close.
+- **No, it's a body of material you maintain** → **collection in `1_Knowledge`**, with a map in `Maps/` as its entrance. A collection is never handed over – it stays.
 
-Sammlungen brauchen keine Meetings, keine Entscheidungen und keine Übergabe. Was an einer Sammlung *Arbeit* ist, passiert in einem Room und landet danach in der Sammlung.
+Collections need no meetings, no decisions and no handover. Whatever about a collection is actual *work* happens in a room and lands in the collection afterwards.
 
-## Die Grenzregel
+## The boundary rule
 
-**Innerhalb eines Rooms darf beliebig verlinkt werden. Nach außen nur auf `1_Knowledge`. Niemals von Room zu Room.**
+**Inside a room, link freely. Outward, only to `1_Knowledge`. Never room to room.**
 
-Kopiert man einen Room-Ordner heraus, zeigt nur eine kurze, bekannte Liste von Links ins Leere – Personen, Organisationen, Software. Die lassen sich beilegen. Wenn zwei Rooms dasselbe brauchen, wird daraus eine Notiz in `1_Knowledge`. Die Regel ist also gleichzeitig der Test, ob etwas projektspezifisch oder allgemein ist.
+Copy a room folder out and only a short, known list of links points nowhere – people, organisations, software. Those you can include. If two rooms need the same thing, it becomes a note in `1_Knowledge`. So the rule is at the same time the test for whether something is project-specific or general.
 
-Sie gilt in beide Richtungen: eine Notiz in `1_Knowledge` verweist auf einen Room höchstens im Klartext, nie als Wiki-Link. **Eine Ausnahme:** [[Rooms]] ist die Landkarte über die Rooms und muss sie verlinken – das ist Navigation, kein Inhalt.
+It holds in both directions: a note in `1_Knowledge` refers to a room in plain text at most, never as a wiki link. **One exception:** [[Rooms]] is the map over the rooms and has to link them – that's navigation, not content.
 
 ## Status
 
-Der einzige Status ist die Ordnerposition. Ein Room liegt in `<context>/` oder in `<context>/_Closed/`. Ein Handgriff, wenn etwas endet. Sonst nichts.
+The only status is the folder position. A room sits in `<context>/` or in `<context>/_Closed/`. One move when something ends. Nothing else.
 
-An die Stelle von Status tritt die **Chronik** in `00 Overview`: eine Zeile pro Ereignis, das man später verstehen muss.
+What replaces status is the **timeline** in `00 Overview`: one line per event someone has to understand later.
 
-## Das Skelett: gleiche Namen, nicht gleiche Vollständigkeit
+## The skeleton: same names, not same completeness
 
-Von Tag 1 existiert genau **eine** Datei:
+From day 1 exactly **one** file exists:
 
 ```
 <Room>/
-└── 00 Overview – <Room>.md    Zweck, Grenzen, Beteiligte, wer entscheidet was,
-                               Systeme, Chronik, offene Fragen
+└── 00 Overview – <Room>.md    purpose, boundaries, people, who decides what,
+                               systems, timeline, open questions
 ```
 
-Die Übersicht **ist** das Übergabedokument, solange sie reicht. Alles Weitere entsteht, wenn es gebraucht wird – und heißt dann so:
+The overview **is** the handover document for as long as it suffices. Everything else appears when it's needed – and is then called this:
 
 ```
-01 Decisions/            bei der ersten Entscheidung mit Gewicht
-02 Meetings/             beim ersten Gespräch, das man später verstehen muss
-03 Knowledge/            beim ersten raumspezifischen Dokument
-08 Attachments/          bei der ersten Datei
-Documents.md             wenn es mehr als eine Handvoll Dokumente gibt
-04 Sub-projects/<X>/     wenn ein Teil eigene Entscheidungen und Meetings ansammelt
-99 Handover – <Room>.md  wenn es wirklich etwas zu übergeben gibt (siehe unten)
+01 Decisions/            at the first decision that carries weight
+02 Meetings/             at the first conversation someone has to understand later
+03 Knowledge/            at the first room-specific document
+08 Attachments/          at the first file
+Documents.md             once there are more than a handful of documents
+04 Sub-projects/<X>/     when a part accumulates its own decisions and meetings
+99 Handover – <Room>.md  when there is genuinely something to hand over (see below)
 ```
 
-**Die Namen sind fest, die Vollständigkeit nicht.** Ein leerer `01 Decisions/`-Ordner behauptet, es sei nichts entschieden worden, und das ist fast immer falsch. **Das Skelett wird nicht vorbezahlt.** Ausnahme sind die `_Closed/`-Ordner je Kontext: die sind leer, und diese Leere ist eine wahre Aussage.
+**The names are fixed, the completeness isn't.** An empty `01 Decisions/` folder claims that nothing has been decided, and that's almost always wrong. **The skeleton isn't paid for up front.** The exception is the `_Closed/` folder per context: those are empty, and that emptiness is a true statement.
 
-**Wann sich die Übergabe abspaltet.** Nicht weil es ein Room ist, sondern wenn die Übersicht sonst platzen würde – wenn **Verträge mit Fristen, Zugänge zu Systemen, benannte Risiken mit Folgen und eine Vorgeschichte** zusammenkommen, die jemand anders tatsächlich übernehmen müsste. Und wenn sie sich abspaltet, wird sie **ab dann gepflegt** – nicht am Ende geschrieben.
+**When the handover splits off.** Not because it's a room, but when the overview would otherwise burst – when **contracts with deadlines, access to systems, named risks with consequences and a backstory** come together that somebody else would actually have to take over. And once it splits off, it is **maintained from then on** – not written at the end.
 
-## Ein Room darf ein Arbeitsverzeichnis sein
+## A room may be a working directory
 
-Das Skelett garantiert nur, wo das Verstehen liegt. Was ein Room darüber hinaus braucht – Hauptdokumente, Bilder, Skripte, ein Git-Repository – liegt daneben und wird in `00 Overview` erklärt. Obsidian zeigt Nicht-Markdown-Dateien ohnehin nicht an.
+The skeleton only guarantees where the understanding lives. Whatever else a room needs – main documents, images, scripts, a git repository – sits alongside it and is explained in `00 Overview`. Obsidian doesn't show non-Markdown files anyway.
 
-## Lebende und Zeitpunkt-Dokumente
+## Living documents and point-in-time documents
 
-| | Beispiel | Was der Vault macht |
+| | Example | What the vault does |
 |---|---|---|
-| **Lebende Dokumente** | ein Konzept, eine Spezifikation, eine Liste, die du pflegst | Wenn du sie selbst pflegst, wohnen sie im Room. Liegen sie in einer geteilten Ablage, wird **verlinkt und verdichtet, nie kopiert** – sonst pflegst du die schlechtere von zwei Fassungen. |
-| **Zeitpunkt-Dokumente** | Angebote, unterschriebene Verträge, Protokolle, Bescheide | **Kopie in `08 Attachments/`.** Sie ändern sich nicht mehr und gehören als Beleg zur Entscheidung. |
+| **Living documents** | a concept, a specification, a list you maintain | If you maintain it yourself, it lives in the room. If it sits in shared storage, you **link and condense, never copy** – otherwise you're maintaining the worse of two versions. |
+| **Point-in-time documents** | quotes, signed contracts, minutes, official notices | **A copy in `08 Attachments/`.** They don't change any more and belong to the decision as evidence. |
 
-## Principles: was gilt
+## Principles: what applies
 
-`1_Knowledge/Principles/` ist der einzige Ordner mit **normativen** Notizen – nicht was du weißt, sondern was gilt: Prinzipien, Regeln, Leitlinien, Absprachen.
+`1_Knowledge/Principles/` is the only folder with **normative** notes – not what you know, but what applies: principles, rules, guidelines, agreements.
 
-Jede trägt im Kopf, ob und seit wann sie gilt und wer sie verabschiedet hat. Das ist kein Fortschritts-Status, sondern der Inhalt selbst: eine Regel ohne Verabschiedung ist keine Regel.
+Each one carries in its header whether it applies, since when, and who approved it. That isn't a progress state, it's the content itself: a rule without approval is not a rule.
 
-**Das Verschieben ist die Verabschiedung.** Ein Entwurf entsteht in dem Room, der ihn erarbeitet. Erst wenn er gilt, wandert er nach `Principles/`. So liegt dort nie etwas, das nicht gilt. [[What applies]] ist die Karte darüber.
+**Moving it is the approval.** A draft is written in the room that works it out. Only once it applies does it move to `Principles/`. That way nothing sits there that doesn't apply. [[What applies]] is the map over it.
 
-## Diagramme
+## Diagrams
 
-**Ein Diagramm als Text im Dokument ist die Quelle. Eine Zeichenfläche ist die Arbeitsfläche.**
+**A diagram as text inside the document is the source. A canvas is the working surface.**
 
-Text wird mit der Notiz versioniert, lässt sich vergleichen und überarbeiten. Eine Zeichenfläche ist zum Verschieben und Durchstreichen – allein oder mit anderen. **Was sich auf der Fläche durchsetzt, wird in den Text nachgezogen.** Bei Widerspruch gilt die Notiz. Dieselbe Logik wie Entwurf und Verabschiedung.
+Text is versioned along with the note, can be diffed and reworked. A canvas is for moving things around and crossing things out – alone or with others. **Whatever wins on the canvas gets pulled back into the text.** In case of conflict, the note wins. Same logic as draft and approval.
 
-Werkzeugspezifische Eigenheiten gehören nicht hierher, sondern in [[Tool notes]].
+Tool-specific quirks don't belong here, they belong in [[Tool notes]].
 
-## Die KI-Schicht
+## The AI layer
 
-Der Vault ist so gebaut, dass ein Assistent damit arbeiten kann, ohne dass du in jedem Gespräch von vorn anfängst.
+The vault is built so an assistant can work with it without you starting from scratch in every conversation.
 
-**Was du einem Assistenten gibst:**
+**What you give an assistant:**
 
-1. [[MANUAL]] – die Regeln, wohin was gehört. Deshalb liegt es an der Wurzel und ist einzeln weitergebbar
-2. [[USER]] · [[SOUL]] · [[IDENTITY]] · [[CONTEXTS]] – wer du bist, wie es klingen soll, welche Rolle er hat, in welchen Welten du dich bewegst
-3. Den Room, um den es geht – die Übersicht reicht meistens
+1. [[MANUAL]] – the rules, what goes where. That's why it sits at the root and can be handed on by itself
+2. [[USER]] · [[SOUL]] · [[IDENTITY]] · [[CONTEXTS]] – who you are, how it should sound, what role it has, which worlds you move in
+3. The room in question – the overview is usually enough
 
-**Was er zurückgibt:** Entwürfe, Verdichtungen, Meeting-Extrakte, Beiträge, die nach dir klingen. Was er **nicht** tut, steht in [[IDENTITY]]: keine Aufgaben anlegen, keine Statusfelder pflegen, nichts in deinem Namen verschicken.
+**What it gives back:** drafts, condensations, meeting extracts, posts that sound like you. What it does **not** do is written in [[IDENTITY]]: create no tasks, maintain no status fields, send nothing in your name.
 
-**Warum Textdateien und keine Assistenten-Einstellung:** eine Datei lässt sich versionieren, weitergeben und in jedes Werkzeug kopieren. Ein Anbieter-Profil nicht. Wenn du das Modell wechselst, wechselst du nur das Modell.
+**Why text files and not an assistant setting:** a file can be versioned, handed on and pasted into any tool. A vendor profile can't. When you switch models, you switch only the model.
 
-Die Grenze bleibt dieselbe wie oben: auch eine KI legt hier keine Aufgaben an.
+The boundary stays the same as above: an AI doesn't create tasks here either.
 
-## Wohin kommt was
+## Where things go
 
-| Was | Wohin |
+| What | Where |
 |---|---|
-| Gedanke, unklar wohin | `0_Inbox` – wird beim Wochenrückblick geleert |
-| Meeting zu einem Room | `<Room>/02 Meetings/` |
-| Gespräch ohne Room | `2_Calendar/Days/` in der Tagesnotiz |
-| Entscheidung mit Gewicht | `<Room>/01 Decisions/` |
-| Spezifikation, Konzept, Anforderung | `<Room>/03 Knowledge/` |
-| Vertrag, Angebot, Bescheid (Datei) | `<Room>/08 Attachments/`, aus der Übersicht verlinkt |
-| Person, die du getroffen hast | `1_Knowledge/People/` |
-| Organisation, mit der du zu tun hast | `1_Knowledge/Organisations/` |
-| „Welches Tool für was" | `1_Knowledge/Software/` |
-| Buch, Video, Artikel | `1_Knowledge/Sources/` |
-| Eigenes Konzept, Erkenntnis | `1_Knowledge/Notes/` |
-| Übersichtsseite über ein Thema | `1_Knowledge/Maps/` |
-| **Verabschiedete** Regel, Prinzip, Absprache | `1_Knowledge/Principles/` |
-| Entwurf einer Regel | im Room, der sie erarbeitet |
-| Kontextfreie Datei | `8_Attachments/` |
+| A thought, unclear where it goes | `0_Inbox` – emptied at the weekly review |
+| A meeting about a room | `<Room>/02 Meetings/` |
+| A conversation without a room | `2_Calendar/Days/`, in the daily note |
+| A decision that carries weight | `<Room>/01 Decisions/` |
+| A specification, concept, requirement | `<Room>/03 Knowledge/` |
+| A contract, quote, official notice (file) | `<Room>/08 Attachments/`, linked from the overview |
+| A person you've met | `1_Knowledge/People/` |
+| An organisation you deal with | `1_Knowledge/Organisations/` |
+| "Which tool for what" | `1_Knowledge/Software/` |
+| A book, video, article | `1_Knowledge/Sources/` |
+| Your own concept, an insight | `1_Knowledge/Notes/` |
+| An overview page about a topic | `1_Knowledge/Maps/` |
+| An **approved** rule, principle, agreement | `1_Knowledge/Principles/` |
+| A draft of a rule | in the room that works it out |
+| A context-free file | `8_Attachments/` |
 
-## Dateinamen
+## File names
 
-- Datierte Notizen beginnen mit dem Datum: `2026-09-07 Kickoff.md`
-- Personen und Organisationen tragen ihren Namen: `Max Mustermann.md`
-- In Rooms tragen Übersicht und Übergabe den Room-Namen mit: `00 Overview – <Room>.md`. Sonst hast du zwanzig Tabs, die alle „00 Overview" heißen.
-- Keine Umlaut-Vermeidung, keine Präfixe, keine Nummern außer bei den Room-Unterordnern
+- Dated notes start with the date: `2026-09-07 Kickoff.md`
+- People and organisations carry their name: `Jane Doe.md`
+- Inside rooms, the overview and the handover carry the room name: `00 Overview – <Room>.md`. Otherwise you end up with twenty tabs all called "00 Overview".
+- No prefixes, no numbering except for the room subfolders
 
 ## Frontmatter
 
-Feldnamen englisch, Inhalt egal. Nur eintragen, was du auch pflegst.
+Field names in English, content up to you. Only fill in what you actually maintain.
 
 ```yaml
 type: room          # room | person | organisation | software | source | map |
                     # meeting | decision | principle | day | review | handover | note
-context:            # nur bei Rooms und bei kontextgebundenem Wissen
+context:            # only for rooms and for context-bound knowledge
 participants: []
 updated: 2026-09-10
 ```
 
-Bei Principles zusätzlich: `valid_since`, `approved_by`, `revision`.
+For principles, additionally: `valid_since`, `approved_by`, `revision`.
 
-## Wöchentlich, 15 Minuten
+## Weekly, 15 minutes
 
-1. `0_Inbox` leeren – jede Notiz kommt an ihren Platz oder wird gelöscht
-2. Chronik der aktiven Rooms um die Zeilen ergänzen, die man später verstehen muss
-3. Rückblick in `2_Calendar/Reviews` schreiben
-4. Abgeschlossene Rooms nach `_Closed/` ziehen
+1. Empty `0_Inbox` – every note goes to its place or gets deleted
+2. Extend the timelines of the active rooms with the lines someone has to understand later
+3. Write the review in `2_Calendar/Reviews`
+4. Move closed rooms to `_Closed/`
 
-## Später, nicht jetzt
+## Later, not now
 
-Struktur muss verdient werden. Erst wenn sie vier Wochen getragen hat:
+Structure has to be earned. Only once it has carried you for four weeks:
 
-- **Dataview** – macht Kontext-Übersichten automatisch, statt Karten manuell zu pflegen
-- **Templater** – Vorlagen mit automatischem Datum
-- **KI-Schicht ausbauen** – Meeting-Extraktion und wöchentliche Konsolidierung. Die Grundlage dafür ist oben beschrieben; im Template ist nur die Identität angelegt: [[USER]], [[SOUL]], [[IDENTITY]], [[CONTEXTS]]. Wie du sie füllst, steht in `9_System/Setup/`.
+- **Dataview** – generates context overviews automatically instead of you maintaining maps by hand
+- **Templater** – templates with the date filled in automatically
+- **Extend the AI layer** – meeting extraction and weekly consolidation. The groundwork is described above; in the template only the identity is set up: [[USER]], [[SOUL]], [[IDENTITY]], [[CONTEXTS]]. How to fill them in is in `9_System/Setup/`.

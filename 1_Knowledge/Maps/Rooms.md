@@ -5,18 +5,18 @@ updated:
 
 # Rooms
 
-Die Landkarte über alles Abgegrenzte. Kein Status – nur wo etwas liegt. Ein Room wandert nach `_Closed/`, wenn er endet, und verschwindet dann aus dieser Liste.
+The map over everything bounded. No status – only where something sits. A room moves to `_Closed/` when it ends, and disappears from this list.
 
-## <Kontext>
+## <Context>
 
-- noch keine Rooms
+- no rooms yet
 
-## Wann ein neuer Room entsteht
+## When a new room is created
 
-Wenn die Sache einen **Verlauf** hat: Dinge werden entschieden, Gespräche finden statt, es gibt eine Chronik und irgendwann einen Abschluss.
+When the thing has a **history**: things get decided, conversations happen, there's a timeline and eventually a close.
 
-Wenn sie einen **Bestand** hat, der nur gepflegt wird, ist es eine Sammlung in `1_Knowledge` mit einer Karte als Eingang – zum Beispiel [[What applies]]. Wenn es nur eine Aufgabe ist, gehört es ins Aufgaben-Tool.
+When it has a **body of material** that only gets maintained, it's a collection in `1_Knowledge` with a map as its entrance – for example [[What applies]]. If it's just a task, it belongs in the task tool.
 
-## Sammlungen
+## Collections
 
-- [[What applies]] – Prinzipien, Regeln, Absprachen
+- [[What applies]] – principles, rules, agreements

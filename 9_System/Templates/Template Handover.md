@@ -5,45 +5,45 @@ context:
 updated:
 ---
 
-# Handover – <Name des Rooms>
+# Handover – <Name of the room>
 
-> Ab Tag 1 pflegen, nicht am Ende schreiben. Wer das hier liest, soll in 30 Minuten arbeitsfähig sein.
+> Maintain from day 1, don't write it at the end. Whoever reads this should be able to work within 30 minutes.
 
-## Zweck und Geschichte in fünf Sätzen
+## Purpose and history in five sentences
 
-## Wer entscheidet was
+## Who decides what
 
-| Person | Entscheidet über | Muss informiert werden bei |
+| Person | Decides on | Must be informed about |
 |---|---|---|
 |  |  |  |
 
-## Wo die operative Arbeit läuft
+## Where the operational work runs
 
-- Aufgaben: <Link>
-- Dateien: <Pfad>
-- Systeme und Zugänge: <Orte, nicht Passwörter>
+- Tasks: <link>
+- Files: <path>
+- Systems and access: <places, not passwords>
 
-## Verträge und Fristen
+## Contracts and deadlines
 
-| Vertrag | Partner | Läuft bis | Liegt in |
+| Contract | Partner | Runs until | Filed in |
 |---|---|---|---|
 |  |  |  | `08 Attachments/` |
 
-## Entscheidungen, die man kennen muss
+## Decisions you need to know about
 
-- [[Entscheidung]] – <in einem Satz, warum sie noch bindet>
+- [[Decision]] – <in one sentence, why it still binds>
 
-## Offene Baustellen
+## Open issues
 
-| Thema | Stand | Risiko, wenn es liegen bleibt |
+| Topic | State | Risk if it's left sitting |
 |---|---|---|
 |  |  |  |
 
-## Was ich anders machen würde
+## What I'd do differently
 
-## Links, die aus diesem Room hinausführen
+## Links that lead out of this room
 
-Nach der Grenzregel nur Notizen aus `1_Knowledge`. Diese Liste beim Übergeben mitgeben.
+Per the boundary rule, only notes from `1_Knowledge`. Hand this list over along with the room.
 
 - [[Person]]
 - [[Organisation]]

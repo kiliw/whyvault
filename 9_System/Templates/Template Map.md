@@ -4,26 +4,26 @@ context:
 updated:
 ---
 
-# <Thema>
+# <Topic>
 
-Wozu diese Karte da ist, in einem Satz. Eine Karte ist der Eingang zu einer **Sammlung** – etwas, das gepflegt wird, keinen Verlauf hat und nicht übergeben wird.
+What this map is for, in one sentence. A map is the entrance to a **collection** – something that gets maintained, has no history and isn't handed over.
 
-## Was dazugehört
+## What belongs to it
 
-Die Notizen, um die es geht – als Liste oder Tabelle mit dem Stand, der wichtig ist.
+The notes in question – as a list or a table with whatever state matters.
 
-## Was daran gearbeitet wird
+## What's being worked on
 
-| Sache | Wo daran gearbeitet wird | Stand |
+| Thing | Where it's being worked on | State |
 |---|---|---|
 |  | Room … |  |
 
-Arbeit passiert in einem Room, nicht in der Sammlung. Hier steht nur, wo.
+Work happens in a room, not in the collection. All that's recorded here is where.
 
-## Was fehlt
+## What's missing
 
-Die Lücken, die dir bewusst sind. Keine Aufgaben.
+The gaps you're aware of. No tasks.
 
-## Die Regeln dieser Sammlung
+## The rules of this collection
 
-Falls es welche gibt: was aufgenommen wird, wann etwas gilt, wo es veröffentlicht wird.
+If there are any: what gets included, when something applies, where it gets published.

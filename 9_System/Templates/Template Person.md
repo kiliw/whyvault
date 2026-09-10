@@ -5,23 +5,23 @@ first_contact:
 updated:
 ---
 
-# <Vorname Nachname>
+# <First name Last name>
 
-**Rolle:** <Funktion> bei [[Organisation]]
-**Erreichbar:** <Kanal>
+**Role:** <function> at [[Organisation]]
+**Reachable via:** <channel>
 
-## Wo ich sie oder ihn getroffen habe
+## Where I met them
 
-- <JJJJ-MM> – <Anlass, Ort, worüber gesprochen>
+- <YYYY-MM> – <occasion, place, what we talked about>
 
-## Worum es bei ihr oder ihm geht
+## What matters to them
 
-Fachlich, aber auch: worauf legt sie oder er Wert, wie wird entschieden, was nervt.
+Professionally, but also: what do they care about, how do they decide, what annoys them.
 
-## Wofür relevant
+## Relevant for
 
-- <Thema – im Klartext, nicht als Link in einen Room>
+- <topic – in plain text, not as a link into a room>
 
-## Notizen
+## Notes
 
 -

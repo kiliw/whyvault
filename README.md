@@ -1,74 +1,76 @@
 # Second Brain – Template
 
-Ein Obsidian-Vault, der eine einzige Frage konsequent beantwortet: **warum ist das so?** Aufgaben, Termine und Fortschritt bleiben in deinem Task-Tool.
+An Obsidian vault that answers one question consistently: **why is this the way it is?** Tasks, dates and progress stay in your task tool.
 
-Ordner- und Dateinamen englisch, Text darin deutsch. Entstanden in einem beruflichen Vault und hier auf die Grundstruktur reduziert – ohne Beispiele aus einem bestimmten Beruf oder Lebensbereich.
+It grew out of a working vault and was stripped down here to the bare structure – no examples from any particular job or area of life.
 
-## Warum
+## Why
 
-Für Leute, die vieles gleichzeitig tragen: Anstellung, eigene Produkte, Familie. Der Engpass ist dabei nicht die Arbeit, sondern der Wiedereinstieg. Nach zwei Wochen in eine Sache zurückkommen und in fünf Minuten wissen, warum etwas so entschieden wurde.
+For people carrying several things at once: a job, their own products, a family. The bottleneck isn't the work, it's getting back in. Returning to something after two weeks and knowing within five minutes why it was decided that way.
 
-Der Vault ist die Zentrale, aus der heraus gearbeitet wird, und gleichzeitig der Kontext, den eine KI braucht, um brauchbare statt generischer Ergebnisse zu liefern: Marke, Stimme, Grenzen, letzte Entscheidungen. Ein Teil der Arbeit, Beiträge, Verdichtungen, Meeting-Extrakte, lässt sich damit abgeben.
+The vault is the hub you work out of, and at the same time the context an AI needs to produce something usable instead of something generic: the brand, the voice, the boundaries, the last decisions. Part of the work – posts, condensations, meeting extracts – can be handed off that way.
 
-**Agent-agnostisch:** alles, was ein Assistent über dich wissen muss, liegt als Textdatei im Vault, nicht in den Einstellungen eines Anbieters. Claude, ChatGPT, ein lokales Modell: du gibst ihm `MANUAL.md` und die vier Identitätsdateien, und es arbeitet nach denselben Regeln. Der Vault gehört dir, das Modell ist austauschbar.
+**Agent-agnostic:** everything an assistant needs to know about you sits in the vault as a text file, not in some vendor's settings. Claude, ChatGPT, a local model: you hand it `MANUAL.md` and the four identity files, and it works by the same rules. The vault is yours, the model is replaceable.
 
-## Schnellstart
+## Quick start
 
-1. **Repository herunterladen** – „Use this template", `git clone`, oder als ZIP.
-2. In Obsidian: **Open folder as vault** und diesen Ordner wählen. Der Ordner *ist* der Vault, es gibt nichts zu kopieren.
-3. **`Start here.md`** öffnen und **[[MANUAL]]** einmal ganz lesen – es ist eine Seite.
-4. **Identität anlegen:** `9_System/Setup/Interview prompt.md` in deinen KI-Assistenten kopieren und dich befragen lassen. Ergebnis sind `USER.md`, `SOUL.md` und `IDENTITY.md`. Wer schon Chat-Erinnerungen hat, nimmt `From memories prompt.md`.
-5. **Kontext benennen:** `3_Rooms/your-context-here/` umbenennen, `CONTEXTS.md` ausfüllen. Einer genügt.
-6. **Einen ersten Room anlegen** – mit genau einer Datei, der Übersicht.
+1. **Get the repository** – "Use this template", `git clone`, or download the ZIP.
+2. In Obsidian: **Open folder as vault** and pick this folder. The folder *is* the vault, there is nothing to copy.
+3. Open **`Start here.md`** and read **[[MANUAL]]** once, all the way through – it's one page.
+4. **Create your identity:** copy `9_System/Setup/Interview prompt.md` into your AI assistant and let it interview you. The result is `USER.md`, `SOUL.md` and `IDENTITY.md`. If you already have chat memories, use `From memories prompt.md` instead.
+5. **Name your context:** rename `3_Rooms/your-context-here/` and fill in `CONTEXTS.md`. One is enough.
+6. **Create a first room** – with exactly one file, the overview.
 
-## Die fünf Regeln
+## The five rules
 
-1. **Der Vault beantwortet „warum", das Aufgaben-Tool „was als nächstes".** Keine Aufgaben, keine Fristen, keine Fortschritts-Status. Sonst hast du zwei Wahrheiten und pflegst die schlechtere.
-2. **Room oder Sammlung?** Hat die Sache einen Verlauf – Dinge werden entschieden, es gibt eine Chronik → **Room**. Ist sie ein gepflegter Bestand → **Sammlung** in `1_Knowledge` mit einer Karte als Eingang.
-3. **Grenzregel.** Innerhalb eines Rooms beliebig verlinken, nach außen nur auf `1_Knowledge`, niemals Room zu Room. Das macht einen Room als Ordner abgebbar – und ist gleichzeitig der Test, ob etwas projektspezifisch oder allgemein ist.
-4. **Das Skelett wird nicht vorbezahlt.** Ein neuer Room hat genau eine Datei. `01 Decisions/`, `02 Meetings/` und der Rest entstehen bei Bedarf. Die Namen sind fest, die Vollständigkeit nicht – ein leerer Entscheidungsordner behauptet, es sei nichts entschieden worden.
-5. **Wissen gehört keinem Room. Einen Kontext darf es haben.** Deshalb ist Kontext nur unter `3_Rooms` eine Ordnerebene: eine Person kann in mehreren Welten auftauchen und existiert trotzdem nur einmal.
+1. **The vault answers "why", the task tool answers "what's next".** No tasks, no deadlines, no progress states. Otherwise you have two truths and you'll maintain the worse one.
+2. **Room or collection?** Does the thing have a history – are decisions made, is there a timeline → **room**. Is it a body of material you maintain → **collection** in `1_Knowledge` with a map as its entrance.
+3. **The boundary rule.** Link freely inside a room, outward only to `1_Knowledge`, never room to room. That's what makes a room handoverable as a folder – and it's also the test for whether something is project-specific or general.
+4. **The skeleton isn't paid for up front.** A new room has exactly one file. `01 Decisions/`, `02 Meetings/` and the rest appear when needed. The names are fixed, the completeness isn't – an empty decisions folder claims that nothing has been decided.
+5. **Knowledge belongs to no room. It may have a context.** That's why context is a folder level only under `3_Rooms`: a person can show up in several worlds and still exist only once.
 
-## Struktur
+## Structure
 
 ```
-MANUAL.md                     die Regeln, an der Wurzel und einzeln weitergebbar
-Start here.md                 Einstieg in Obsidian
-0_Inbox/                      alles Unsortierte, wird geleert
-1_Knowledge/                  zeitlos, flach, geteilt
+MANUAL.md                     the rules, at the root and shareable on its own
+Start here.md                 the way in, inside Obsidian
+0_Inbox/                      everything unsorted, gets emptied
+1_Knowledge/                  timeless, flat, shared
   People/  Organisations/  Software/  Notes/  Sources/  Maps/  Principles/
-2_Calendar/                   datiert, dünn
+2_Calendar/                   dated, thin
   Days/  Reviews/
-3_Rooms/                      alles Abgegrenzte, einzige Kontextebene
-  your-context-here/          Platzhalter, je Kontext mit _Closed/
-8_Attachments/                kontextfreie Dateien
+3_Rooms/                      everything bounded, the only context level
+  your-context-here/          placeholder, one per context with _Closed/
+8_Attachments/                context-free files
 9_System/
-  Tool notes.md               werkzeugspezifische Eigenheiten, bewusst getrennt
+  Tool notes.md               tool-specific quirks, deliberately kept separate
   Identity/                   USER · SOUL · IDENTITY · CONTEXTS
-  Setup/                      Interview- und Memories-Prompt
-  Templates/                  13 Vorlagen
+  Setup/                      interview and memories prompt
+  Templates/                  13 templates
 ```
 
-Room-Skelett: `00 Overview – <Room>.md`, dann bei Bedarf `01 Decisions/`, `02 Meetings/`, `03 Knowledge/`, `08 Attachments/`, `Documents.md`, `04 Sub-projects/`, `99 Handover – <Room>.md`.
+Room skeleton: `00 Overview – <Room>.md`, then as needed `01 Decisions/`, `02 Meetings/`, `03 Knowledge/`, `08 Attachments/`, `Documents.md`, `04 Sub-projects/`, `99 Handover – <Room>.md`.
 
-## Die vier Identitätsdateien
+## The four identity files
 
-| Datei | Beantwortet |
+| File | Answers |
 |---|---|
-| `USER.md` | Wer ich bin und wie ich arbeite |
-| `SOUL.md` | Wie es klingen soll, wenn für mich geschrieben wird |
-| `IDENTITY.md` | Wer der Assistent für mich sein soll – Mandat, Grenzen, Standardverhalten |
-| `CONTEXTS.md` | In welchen Welten ich mich bewege (das sind die Ordner unter `3_Rooms`) |
+| `USER.md` | Who I am and how I work |
+| `SOUL.md` | How it should sound when something is written for me |
+| `IDENTITY.md` | Who the assistant should be to me – mandate, boundaries, default behaviour |
+| `CONTEXTS.md` | Which worlds I move in (these are the folders under `3_Rooms`) |
 
-Sie werden nicht von Hand geschrieben, sondern per Interview oder aus vorhandenen Erinnerungen erzeugt – siehe `9_System/Setup/`.
+You don't write them by hand – you generate them from an interview or from existing memories. See `9_System/Setup/`.
 
-## Was absichtlich fehlt
+## What's deliberately missing
 
-Keine Plugins, keine Automatik, keine Beispiel-Rooms, keine vorbelegten Kontexte. **Struktur muss verdient werden:** erst benutzen, dann verfeinern. Dataview und Templater lohnen sich, wenn das Skelett vier Wochen getragen hat – die Frontmatter-Schlüssel sind darauf ausgelegt.
+No plugins, no automation, no example rooms, no pre-filled contexts. **Structure has to be earned:** use it first, refine it later. Dataview and Templater pay off once the skeleton has carried you for four weeks – the frontmatter keys are built with that in mind.
 
-## Wenn du einen Vault in anderer Sprache daneben betreibst
+## If you run a vault in another language alongside this one
 
-| Englisch | Deutsch |
+Folder and file names here are English. If you keep a second vault in German, this is the mapping that keeps the two comparable:
+
+| English | German |
 |---|---|
 | `0_Inbox` | `0_Eingang` |
 | `1_Knowledge` | `1_Wissen` |
@@ -79,8 +81,8 @@ Keine Plugins, keine Automatik, keine Beispiel-Rooms, keine vorbelegten Kontexte
 | `9_System` · `MANUAL` · `Identity` · `Templates` | `9_System` · `Anleitung` · `Identität` · `Vorlagen` |
 | `00 Overview` · `01 Decisions` · `02 Meetings` · `03 Knowledge` · `08 Attachments` · `99 Handover` | `00 Übersicht` · `01 Entscheidungen` · `02 Meetings` · `03 Wissen` · `08 Anhänge` · `99 Übergabe` |
 
-Die Frontmatter-Schlüssel sind in beiden Fällen englisch (`type`, `context`, `updated`) – das ist die Naht, an der sich zwei Vaults später zusammenziehen lassen.
+The frontmatter keys stay English either way (`type`, `context`, `updated`) – that's the seam along which two vaults can be pulled together later.
 
-## Lizenz
+## License
 
-Noch nicht festgelegt – siehe `LICENSE`.
+MIT – see `LICENSE`.

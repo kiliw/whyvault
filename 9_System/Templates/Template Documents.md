@@ -5,23 +5,23 @@ context:
 updated:
 ---
 
-# Dokumentenverzeichnis <Room>
+# Document index <Room>
 
-Was existiert, wo es liegt, welchen Stand es hat. Bei Versionssprüngen hier den Stand mitziehen.
+What exists, where it sits, what state it's in. When versions jump, update the state here too.
 
-## Hauptdokumente – leben in diesem Room
+## Main documents – these live in this room
 
-| Dokument | Stand | Rolle | Wer darf es sehen |
+| Document | State | Role | Who may see it |
 |---|---|---|---|
 |  |  |  |  |
 
-## Zeitpunkt-Dokumente – Kopien, die sich nicht mehr ändern
+## Point-in-time documents – copies that don't change any more
 
-| Dokument | Ort | Datum |
+| Document | Location | Date |
 |---|---|---|
 |  | `08 Attachments/` |  |
 
-## Was nicht hier liegt
+## What isn't here
 
-- Aufgaben, Termine, Verantwortliche → Aufgaben-Tool
-- <Weitere Systeme>
+- Tasks, dates, owners → task tool
+- <other systems>

@@ -4,20 +4,20 @@ type: system
 
 # Start here
 
-- **Die Regeln:** [[MANUAL]] – eine Seite, beantwortet jede „wohin gehört das"-Frage
-- **Die Landkarte:** [[Rooms]] – alles Abgegrenzte, nach Kontext
-- **Was gilt:** [[What applies]] – Prinzipien, Regeln, Absprachen
-- **Wer ich bin:** [[USER]] · [[SOUL]] · [[IDENTITY]] · [[CONTEXTS]]
-- **Vorlagen:** `9_System/Templates` · **Werkzeug-Eigenheiten:** [[Tool notes]]
+- **The rules:** [[MANUAL]] – one page, answers every "where does this go" question
+- **The map:** [[Rooms]] – everything bounded, by context
+- **What applies:** [[What applies]] – principles, rules, agreements
+- **Who I am:** [[USER]] · [[SOUL]] · [[IDENTITY]] · [[CONTEXTS]]
+- **Templates:** `9_System/Templates` · **Tool quirks:** [[Tool notes]]
 
-## Der eine Satz
+## The one sentence
 
-Dieser Vault beantwortet **warum**. Dein Aufgaben-Tool beantwortet **was als nächstes**.
+This vault answers **why**. Your task tool answers **what's next**.
 
-## Die ersten drei Schritte
+## The first three steps
 
-1. **Identität anlegen.** Öffne `9_System/Setup/Interview prompt.md`, kopiere den Text in deinen KI-Assistenten und lass dich befragen. Am Ende hast du [[USER]], [[SOUL]] und [[IDENTITY]] als Entwurf. Wenn du schon Chat-Erinnerungen oder einen Export hast, nimm stattdessen `From memories prompt.md`.
-2. **Kontexte benennen.** Den Platzhalter `3_Rooms/your-context-here/` umbenennen, [[CONTEXTS]] ausfüllen. Einer genügt zum Anfangen.
-3. **Einen ersten Room anlegen** – mit **einer** Datei, der Übersicht. Zweck und Grenzen schreiben, sonst nichts. Alles Weitere entsteht, wenn es gebraucht wird.
+1. **Create your identity.** Open `9_System/Setup/Interview prompt.md`, copy the text into your AI assistant and let it interview you. At the end you have drafts of [[USER]], [[SOUL]] and [[IDENTITY]]. If you already have chat memories or an export, use `From memories prompt.md` instead.
+2. **Name your contexts.** Rename the placeholder `3_Rooms/your-context-here/` and fill in [[CONTEXTS]]. One is enough to start with.
+3. **Create a first room** – with **one** file, the overview. Write the purpose and the boundaries, nothing else. Everything else appears when it's needed.
 
-Danach: eine echte Entscheidung aus den letzten Wochen nachträglich dokumentieren. Daran merkst du, ob die Vorlage trägt.
+After that: go back and document one real decision from the last few weeks. That's how you find out whether the template holds up.

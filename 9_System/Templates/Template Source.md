@@ -7,28 +7,28 @@ url:
 read:
 ---
 
-# <Titel>
+# <Title>
 
-**Art:** <Buch | Video | Artikel | Podcast | Kurs>
-**Autor:**
-**Quelle:**
+**Kind:** <book | video | article | podcast | course>
+**Author:**
+**Source:**
 
-## Worum es geht
+## What it's about
 
-Zwei Sätze in eigenen Worten.
+Two sentences in your own words.
 
-## Was ich mitnehme
+## What I take from it
 
-Nur das, was du tatsächlich verwenden willst. Drei Punkte reichen.
-
--
-
-## Wo ich abweiche
-
-Der Abschnitt, der aus einer Zusammenfassung eine eigene Position macht.
+Only what you actually intend to use. Three points are enough.
 
 -
 
-## Wo ich es anwende
+## Where I disagree
 
-- <Thema>
+The section that turns a summary into a position of your own.
+
+-
+
+## Where I apply it
+
+- <topic>

@@ -5,35 +5,35 @@ updated:
 
 # USER
 
-> Wer ich bin und wie ich arbeite. Diese Datei erklärt einem Assistenten in fünf Minuten, mit wem er es zu tun hat.
-> Kurz halten, dafür stimmen lassen. Was du nicht weißt, lässt du weg – lieber drei ehrliche Sätze als zehn geratene.
-> Erstellen lassen: `9_System/Setup/Interview prompt.md`
+> Who I am and how I work. This file explains to an assistant in five minutes who it's dealing with.
+> Keep it short, but make it true. Leave out what you don't know – three honest sentences beat ten guessed ones.
+> Have it generated: `9_System/Setup/Interview prompt.md`
 
 ## Who I Am
 
-<Name. Was du tust, in einem Satz. Was dich von anderen mit demselben Titel unterscheidet.>
+<Name. What you do, in one sentence. What sets you apart from others with the same job title.>
 
 ## My Role
 
-<Worauf du wirklich Einfluss hast. Was du selbst entscheidest, wo du jemanden brauchst. Wofür du gerade zuständig bist – und wofür ausdrücklich nicht.>
+<What you actually have influence over. What you decide yourself, where you need someone else. What you're responsible for right now – and what you're explicitly not responsible for.>
 
 ## How I Communicate
 
-<Schriftlich oder im Gespräch? Erst die Antwort, dann die Begründung – oder umgekehrt? Wie direkt darf Widerspruch sein? Wie lang ist zu lang? Welche Sprache, welche Fachbegriffe?>
+<In writing or in conversation? Answer first, then the reasoning – or the other way round? How direct may disagreement be? How long is too long? Which language, which jargon?>
 
 ## Frameworks I Live By
 
-<Die Denkmodelle, die du tatsächlich benutzt – keine Lesliste. Je Eintrag ein Satz, was du daraus anwendest.>
+<The mental models you actually use – not a reading list. One sentence per entry on what you apply from it.>
 
 ## How I Present Problems
 
-<Wie ein Problem bei dir ankommt: als Frage, als Halbsatz, als Materialhaufen? Neigst du dazu, die Lösung mitzuliefern? Woran merkt ein Assistent, dass du eigentlich noch denkst und keine Antwort willst?>
+<How a problem arrives from you: as a question, as half a sentence, as a pile of material? Do you tend to hand over the solution along with it? How does an assistant tell that you're still thinking and don't want an answer yet?>
 
 ## Tools that are set
 
-| Wofür | Womit |
+| For what | With what |
 |---|---|
-| Aufgaben |  |
-| Kalender |  |
-| Wissen und Entscheidungen | dieser Vault |
-| Dateien |  |
+| Tasks |  |
+| Calendar |  |
+| Knowledge and decisions | this vault |
+| Files |  |

@@ -6,33 +6,33 @@ context:
 decided_by:
 ---
 
-# <JJJJ-MM-TT> <Worum es ging>
+# <YYYY-MM-DD> <What it was about>
 
-## Frage
+## Question
 
-Was war zu entscheiden? Eine Frage, nicht ein Thema.
+What was there to decide? A question, not a topic.
 
-## Optionen
+## Options
 
-| Option | Dafür | Dagegen |
+| Option | For | Against |
 |---|---|---|
 |  |  |  |
 |  |  |  |
 
-## Entscheidung
+## Decision
 
-Was wurde entschieden, von wem, wann.
+What was decided, by whom, when.
 
-## Begründung
+## Reasoning
 
-Warum diese Option – und warum die anderen nicht.
+Why this option – and why not the others.
 
-## Wovon wir ausgegangen sind
+## What we assumed
 
-Die Annahmen. Der wichtigste Abschnitt: an ihnen erkennt man später, wann die Entscheidung neu geprüft werden muss.
+The assumptions. The most important section: they're how you tell later when the decision needs to be revisited.
 
 -
 
-## Folgen
+## Consequences
 
-Was sich daraus ergibt. Keine Aufgaben; die gehören ins Aufgaben-Tool.
+What follows from it. No tasks; those belong in the task tool.

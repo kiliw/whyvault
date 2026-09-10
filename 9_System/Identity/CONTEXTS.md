@@ -3,28 +3,28 @@ type: identity
 updated:
 ---
 
-# CONTEXTS – die Welten, in denen ich mich bewege
+# CONTEXTS – the worlds I move in
 
-> Ein Room in `3_Rooms` gehört zu genau einem dieser Kontexte. Wissen gehört zu allen.
-> Ein Kontext ist ein Bereich mit eigenen Zielen, eigenen Beteiligten und eigener Ablage.
-> Diesen Block je Kontext kopieren. Einer genügt zum Anfangen.
+> A room in `3_Rooms` belongs to exactly one of these contexts. Knowledge belongs to all of them.
+> A context is an area with its own goals, its own people and its own filing.
+> Copy this block once per context. One is enough to start with.
 
-## <Kontext>
+## <Context>
 
-- **Was:** <ein Satz>
-- **Aufgaben laufen in:** <Werkzeug>
-- **Woran es sich messen lässt:** <Ziele, Kennzahlen, Termine>
-- **Wer mitentscheidet:** <Namen oder Rollen>
-- **Was hier gilt:** <Regeln, Grenzen, Vertraulichkeit, Zeitfenster>
-- **Ablage:** <wo die Dateien liegen, die nicht in den Vault gehören>
+- **What:** <one sentence>
+- **Tasks run in:** <tool>
+- **What it's measured against:** <goals, numbers, dates>
+- **Who decides with me:** <names or roles>
+- **What applies here:** <rules, boundaries, confidentiality, time windows>
+- **Filing:** <where the files live that don't belong in the vault>
 
-## Wo es sich überschneidet
+## Where it overlaps
 
-Genau dafür ist `1_Knowledge` flach:
+That's exactly why `1_Knowledge` is flat:
 
-- Personen, die in mehreren Kontexten auftauchen
-- Software, die du überall bewertest
-- Methoden und Erkenntnisse, die in mehreren Kontexten wirken
-- Erkenntnisse über dich selbst
+- People who show up in several contexts
+- Software you evaluate across all of them
+- Methods and insights that work in several contexts
+- Insights about yourself
 
-Diese Notizen bekommen **keinen** Kontext. Nur Rooms haben einen.
+These notes get **no** context. Only rooms have one.

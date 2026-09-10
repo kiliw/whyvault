@@ -4,20 +4,20 @@ type: system
 
 # Tool notes
 
-Werkzeugspezifische Eigenheiten. Gehören ausdrücklich **nicht** in das [[MANUAL]] – die beschreibt das System, nicht die Programme. Diese Datei ist die Halde für alles, was nur in deiner Umgebung gilt, und darf ruhig unvollständig sein.
+Tool-specific quirks. These explicitly do **not** belong in the [[MANUAL]] – that describes the system, not the programs. This file is the dumping ground for everything that only applies in your setup, and it's allowed to be incomplete.
 
 ## Obsidian
 
-- Nicht-Markdown-Dateien werden nicht angezeigt, solange „Detect all file extensions" aus ist. Deshalb darf ein Room auch Skripte oder ein Repository enthalten, ohne dass es stört.
-- Beim Verschieben einer Notiz zieht Obsidian die Links mit. Genau darauf baut die Regel „Das Verschieben ist die Verabschiedung“.
+- Non-Markdown files aren't shown as long as "Detect all file extensions" is off. That's why a room may also contain scripts or a repository without getting in the way.
+- When you move a note, Obsidian brings the links along. That's exactly what the rule "moving it is the approval" is built on.
 
-## Zeichenflächen
+## Canvases
 
-- **Excalidraw (Plugin):** eine Zeichnung liegt als `<Name>.excalidraw.md` neben der Notiz und wird mit `![[<Name>.excalidraw]]` im Text eingebettet. Der Bereich unterhalb von `# Excalidraw Data` ist empfindlich – nicht von Lint- oder Formatier-Plugins anfassen lassen.
-- **Mermaid-Import** (Excalidraw und Miro nutzen dieselbe Bibliothek): **scheitert an Subgraphs.** Aus einem Diagramm mit Rahmen wird ein einzelnes Bild. Solche Flächen von Hand bauen.
-- Eine gemeinsame Fläche für mehrere Personen (Miro, FigJam) schlägt eine lokale Zeichnung immer dann, wenn wirklich mehrere daran arbeiten. Dann gilt: die Fläche ist zum Arbeiten, der Text in der Notiz bleibt die Quelle.
+- **Excalidraw (plugin):** a drawing sits next to the note as `<Name>.excalidraw.md` and is embedded in the text with `![[<Name>.excalidraw]]`. The area below `# Excalidraw Data` is fragile – don't let lint or formatting plugins touch it.
+- **Mermaid import** (Excalidraw and Miro use the same library): **breaks on subgraphs.** A diagram with frames turns into a single image. Build canvases like that by hand.
+- A shared canvas for several people (Miro, FigJam) beats a local drawing whenever several people genuinely work on it. The rule then: the canvas is for working, the text in the note stays the source.
 
-## Später sinnvoll
+## Worth it later
 
-- **Dataview** – ersetzt handgepflegte Karten durch Abfragen. Die Frontmatter-Schlüssel in diesem Template sind darauf ausgelegt.
-- **Templater** – setzt Datum und Titel in den Vorlagen automatisch.
+- **Dataview** – replaces hand-maintained maps with queries. The frontmatter keys in this template are built with that in mind.
+- **Templater** – fills in date and title in the templates automatically.

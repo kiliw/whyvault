@@ -6,51 +6,51 @@ created:
 updated:
 ---
 
-# <Name des Rooms>
+# <Name of the room>
 
-## Zweck
+## Purpose
 
-Warum existiert dieser Room? Zwei bis drei Sätze, die auch in einem Jahr noch stimmen. Nicht das aktuelle Ziel, sondern der Grund.
+Why does this room exist? Two or three sentences that will still be true in a year. Not the current goal, the reason.
 
-## Grenzen
+## Boundaries
 
-Was gehört dazu – und was ausdrücklich nicht. Der wichtigste Absatz für eine Übergabe.
+What's part of it – and what explicitly isn't. The most important paragraph for a handover.
 
-## Beteiligte
+## People
 
-Wer dauerhaft dazugehört – nicht die Anwesenheit eines einzelnen Termins, die steht in der Meeting-Notiz.
+Who belongs to this permanently – not who attended a single meeting, that's in the meeting note.
 
-- [[Name]] – Rolle
-- [[Organisation]] – <in welcher Rolle>
+- [[Name]] – role
+- [[Organisation]] – <in what role>
 
-## Wer entscheidet was
+## Who decides what
 
-| Thema | Entscheidet |
+| Topic | Decided by |
 |---|---|
 |  |  |
 
-## Systeme
+## Systems
 
-Wo die operative Arbeit läuft. **Nicht hier.**
+Where the operational work runs. **Not here.**
 
-- Aufgaben und Termine: <Link>
-- Dateiablage: <Pfad oder Link>
-- Weiteres: <Zugänge – Orte, keine Passwörter>
+- Tasks and dates: <link>
+- File storage: <path or link>
+- Other: <access – places, not passwords>
 
-## Chronik
+## Timeline
 
-Eine Zeile pro Ereignis, das man später verstehen muss. Neueste unten.
+One line per event someone has to understand later. Newest at the bottom.
 
-- <JJJJ-MM> – Room angelegt
+- <YYYY-MM> – room created
 
-## Offene Fragen
+## Open questions
 
-| Frage | Stand | Risiko, wenn es liegen bleibt |
+| Question | State | Risk if it's left sitting |
 |---|---|---|
 |  |  |  |
 
-## Verweise
+## References
 
-- Entscheidungen: `01 Decisions/`
-- Dokumentenverzeichnis: [[Documents]] (anlegen, sobald es mehr als eine Handvoll gibt)
-- Übergabe: erst anlegen, wenn Verträge, Fristen, Zugänge und Risiken zusammenkommen – bis dahin genügt diese Übersicht
+- Decisions: `01 Decisions/`
+- Document index: [[Documents]] (create it once there are more than a handful)
+- Handover: only create it once contracts, deadlines, access and risks come together – until then this overview is enough
