@@ -85,4 +85,4 @@ The frontmatter keys stay English either way (`type`, `context`, `updated`) – 
 
 ## License
 
-MIT – see `LICENSE`.
+MIT, copyright (c) 2026 Kilian Wimmer – see `LICENSE`.
