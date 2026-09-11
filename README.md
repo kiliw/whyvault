@@ -1,3 +1,5 @@
+![Whyvault — decisions, connected](assets/whyvault-readme-header.png)
+
 # Second Brain – Template
 
 An Obsidian vault that answers one question consistently: **why is this the way it is?** Tasks, dates and progress stay in your task tool.
